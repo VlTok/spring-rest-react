@@ -1,0 +1,15 @@
+com\example\demo\exception\NotFoundException.class
+com\example\demo\dto\FindParams.class
+com\example\demo\config\NotFoundAdvice.class
+com\example\demo\controller\TaskController.class
+com\example\demo\service\TaskService.class
+com\example\demo\entity\Task$TaskBuilder.class
+com\example\demo\repository\TagRepository.class
+com\example\demo\entity\Tag.class
+com\example\demo\entity\Task.class
+com\example\demo\config\CORSFilter.class
+com\example\demo\service\TagService.class
+com\example\demo\controller\TagController.class
+com\example\demo\entity\Tag$TagBuilder.class
+com\example\demo\repository\TaskRepository.class
+com\example\demo\TodoMainApplication.class
