@@ -1,0 +1,92 @@
+.itemBorderYellow{
+    border-bottom: 1px solid rgba(199, 187, 18, 0.699) !important;
+}
+.itemBorderGreen{
+    border-bottom: 1px solid rgba(0, 128, 0, 0.486) !important;
+}
+
+.doneIcon svg {    
+    margin-bottom: -10px !important;
+    color: rgba(12, 151, 12, 0.795);
+}
+.questIcon svg {    
+    margin-bottom: -10px !important;
+    color: rgb(70, 70, 70);
+}
+.doneIconDark svg {    
+    margin-bottom: -10px !important;
+    color: rgba(132, 252, 132, 0.884);
+}
+.questIconDark svg {    
+    margin-bottom: -10px !important;
+    color: rgb(175, 174, 174);
+}
+
+
+.itemTextRed{
+    border: none;
+    background-color: white;
+    border-radius: 0%;
+}
+.itemTextGreen{
+    border: none;
+    background-color: white;
+    border-radius: 0%;
+}
+.closeButton {
+    background-color: white !important;    
+    border: none;
+    box-shadow: none !important;
+}
+
+.closeButton:hover {
+    background-color: rgba(204, 27, 20, 0.815) !important;
+}
+
+.closeButton:hover .closeIcon{
+    color:white !important
+}
+.closeButtonDark {
+    background-color: rgba(59, 59, 68, 0.452) !important;    
+    border: none;
+    box-shadow: none !important;
+}
+
+.closeButtonDark:hover {
+    background-color: rgba(241, 33, 26, 0.836) !important;
+}
+
+.closeButtonDark:hover .closeIcon{
+    color:white !important
+}
+.closeIcon {
+    color: red !important
+}
+
+.green{
+    background-color: rgba(112, 191, 83, 0.507);
+}
+
+.green:hover{
+    background-color: rgb(112, 191, 83);
+}
+  
+.red{
+    background-color: rgba(199, 187, 18, 0.699);
+}
+
+.buttonSub {
+    color:rgb(39, 39, 39);
+    background-color: white;
+    border-color: rgba(68, 68, 68, 0.897);
+}
+.buttonSub:hover {
+    color:whitesmoke;
+    background-color: rgb(111, 191, 83);
+    border-color: rgba(60, 194, 12, 0.856);
+}
+.deleteAllButton{
+    position: absolute;
+    right: -10%;
+    top:0;
+}

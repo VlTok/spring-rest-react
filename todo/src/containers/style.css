@@ -1,0 +1,129 @@
+.header {
+    background-color: rgba(175, 172, 172, 0.822);
+    /* box-shadow: 0 30px 60px rgba(226, 217, 217, 0.425); */
+    margin-bottom: 10px;
+    position: relative;
+}
+.headerDark {
+    box-shadow: none !important;
+}
+.headderWhite span {
+    color: white;
+}
+.header .ant-page-header-heading-title{
+    font-size: x-large;
+}
+.header .ant-page-header-heading-sub-title{
+    margin-top: 5px;
+}
+
+.ant-page-header-heading {
+    justify-content: center;
+}
+
+.main {
+    background-color: rgba(78, 69, 69, 0.116);
+}
+.white {
+    background-color: red;
+}
+
+.formContainer {
+    border: 0px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.formContainer .ant-card-body{
+    padding-bottom: 0px;
+}
+
+.formContainerDark {
+    background-color: rgba(34, 37, 43, 0.452);
+}
+
+.tagStyle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    max-width: 750px;
+    
+    margin-bottom: -18px;
+    margin-left: 12px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+
+    position: relative;
+}
+
+.crossedText{
+    color:rgba(0, 0, 0, 0.288)
+}
+.tagStyleDark{
+    background-color: rgba(54, 56, 59, 0.452);
+    color:white
+}
+.crossedText::before{
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 2px;
+    background: rgba(9, 148, 32, 0.651);
+    top: 45%;    
+}
+.pagination li button{
+    border: none !important;
+}
+
+.themeButton {
+    position: absolute;
+    top:40%;
+    right:22%;
+}
+
+.todoListWrapper{
+    border-radius: 15px;
+    background-color: white;
+    
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.todoListWrapperDark {
+    border-radius: 15px;
+    background-color:  rgba(34, 37, 43, 0.452);
+    
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+body{
+    background-color: rgba(204, 202, 202, 0.212);
+}
+
+.themeIcons{
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.inputTask:hover{
+    border-color: rgba(53, 53, 53, 0.425);
+}
+.deleteAllButtton {
+    background-color: rgba(187, 12, 12, 0.705) !important;
+    border-color: rgba(187, 12, 12, 0.705) !important;
+}
+
+.formInputDark {
+    background-color: rgba(141, 141, 141, 0.712);
+    border-color: rgb(36, 35, 35);
+}
+.subButtonDark{    
+    background-color: rgba(173, 170, 170, 0.712);
+    color:white;
+}
+.paginationDark li button{
+    background-color:rgba(34, 37, 43, 0.452) !important;
+}
+.paginationDark li a{
+    background-color:rgba(34, 37, 43, 0.452) !important;
+}
